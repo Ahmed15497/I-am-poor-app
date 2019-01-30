@@ -16,14 +16,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        app:srcCompat="@drawable/coal"/>
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/coal" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:layout_marginTop="42dp"
-        android:text="I am Poor!"/>
+        android:text="@string/title"
+        android:textSize="50sp" />
 </RelativeLayout>
